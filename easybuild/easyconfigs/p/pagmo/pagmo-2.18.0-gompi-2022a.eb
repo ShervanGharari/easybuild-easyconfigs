@@ -7,6 +7,7 @@ homepage = 'https://esa.github.io/pagmo2'
 description = "pagmo is a C++ scientific library for massively parallel optimization."
 
 toolchain = {'name': 'gompi', 'version': '2022a'}
+toolchainopts = {'usempi': True}
 
 source_urls = ['https://github.com/esa/pagmo2/archive/']
 sources = ['v%(version)s.tar.gz']
